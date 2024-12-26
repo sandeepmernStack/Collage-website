@@ -1,0 +1,60 @@
+.about
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 60px 0 20px;
+    gap: 20px;
+    width: 100%;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.item
+{
+    flex: 1 1 calc(50% - 20px);
+}
+
+.item .details
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.item .details h4
+{
+    font-size: 2rem;
+    color: rgb(51, 42, 42);
+}
+
+.item .details p{
+line-height: 1.7rem;
+font-weight: 300;
+font-size:1.05rem ;
+}
+
+.about-img{
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+/* Responsive css */
+@media (max-width:768px) {
+.item
+{
+    flex: 1 1 calc(100% - 20px);
+}
+
+
+
+
+.about-img{
+    width: 100%;
+    object-fit: fill;
+
+}
+}
+

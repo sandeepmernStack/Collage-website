@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.btn{
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  color: rgb(28, 22, 22);
+  background: white;
+  border: 0;
+  outline: 0;
+  border-radius: 40px;
+  text-align: center;
+
+}
+
+
+@media (max-width:768px) {
+body{
+  font-size: 14px;
+}
+}
+@media (max-width:480px) {
+body{
+  font-size: 12px;
+}
+}

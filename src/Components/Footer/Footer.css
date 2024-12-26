@@ -1,0 +1,29 @@
+.footer{
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 50px;
+    padding: 0 10%;
+    margin-top: 50px;
+}
+
+.footer ul{
+    display: flex;
+    align-items: center;
+    line-height: 50px;
+    gap: 50px;
+    list-style: none;
+}
+
+.footer ul li:hover{
+    cursor: pointer;
+}
+
+@media (max-width:750px){
+    .footer{
+        flex-direction: column;
+    }
+}
